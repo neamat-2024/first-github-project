@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ------font size-------- */
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-42{
+    font-size: 42px;
+}
+.fs-62{
+    font-size: 62px;
+}
+.fs-80{
+    font-size: 80px;
+}
+
+/* ------font Weight-------- */
+.fw-400{
+    font-weight: 400;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+
+/* ------Color-------- */
+.primary-color{
+    color: #EB1B34 !important;
+}
+.pcolor{
+    color: #EB1B34;
+}
+.black-color{
+    color: black;
+}
+.light-black{
+    color: #6E7491;
+}
+.primarylight{
+    color: #FDE8EB !important;
+}
+
+/* -------Button--------- */
+.primary-btn{
+    background-color: #EB1B34;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #EB1B34;
+    border-radius: 4px;
+}
+
+.primary-btn:hover{
+    background-color: white;
+    color: #EB1B34;
+}
+
+.search-section{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+}
+.header{
+    background-image: url(img/header\ bg.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-check-input:focus{
+    box-shadow:none;
+    border-color: #E91C34;  
+}
+input[type=radio]:checked{
+    background-color: #EB1B34;
+
+}
+.search-section .nav-item:checked{
+    background-color: #E91C34;
+    color: #FFFFFF;
+} 
+/* .nav-pills > li > a.active {
+    background-color: #EB1B34 !important;
+} */
+.nav-pills > li > button.active {
+    background-color: #EB1B34 !important;
+}
+.nav-pills > li > button {
+    background-color: white !important;
+    border-color: #EB1B34 !important;
+}
+
+.searchbutton button{
+    padding: 14px 40px;
+    margin-top: -32px;
+    background-color: #EB1B34;
+    color: white;
+    font-size: 16px;
+}
+.bestdeal{
+    background-color: #E91C34;
+    width: 100%;
+    height: 220px;
+    border-radius: 6px;
+}
+.bestdeal .p2{
+    margin-left: 220px;
+}
+.seamless-travel{
+    background-image: url(img/explore.png) ;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.deal-content{
+    background-color: #E91C34;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.deal-img img{
+    height: 220px;
+    width: 220px;
+}
+.deal-content .p2{
+    margin-left: 150px;
+}
+
+/* .footer-text{
+    background-color: #282531;
+} */
+
+.footer-text ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #6E7491;
+}
+.footer-text ul li{
+    padding: 0px;
+    list-style: none;
+    padding-top: 8px;
+}
+
+.footer-text ul li a{
+    text-decoration: none;
+    color: #6E7491;
+}
+.footer-paragraph{
+    color: #6E7491;
+}
